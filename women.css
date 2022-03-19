@@ -1,0 +1,40 @@
+p {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+button {
+    background-color: blue;
+    transition-property: all;
+    transition-duration: 0.5s;
+    width: 20%;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: aqua;
+
+}
+
+img {
+    border-style: solid;
+    border-color: aquamarine;
+    border-radius: 50px;
+    margin-left: 50px;
+}
+
+body {
+    background-color: blueviolet;
+    color: aqua;
+    background: linear-gradient(to right,blueviolet,rgb(247, 0, 255),blueviolet);
+}
+
+h1 {
+     background: linear-gradient(to right,blue,blueviolet,blue );
+    color: blue;
+    border-style: solid;
+    border-color: aqua;
+    border-radius: 10px;    
+    margin-left: 50px;
+    text-align: center;
+   
+}
