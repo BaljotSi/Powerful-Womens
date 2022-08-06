@@ -1,4 +1,18 @@
-.women{
+body {
+    background: linear-gradient(to right, blue, blueviolet, blue);
+}
+
+h1 {
+    background: linear-gradient(to right, blueviolet, rgb(247, 0, 255), blueviolet);
+    width: 50%;
+    color: blue;
+    border-style: solid;
+    border-color: blue;
+    border-radius: 10px;
+
+}
+
+.women {
     border-style: solid;
     border-color: blue;
     width: 50%;
@@ -8,47 +22,38 @@
     margin-bottom: 50px;
 }
 
-.women img{
+.women img {
     border-radius: 30px;
     border-style: solid;
     border-color: aqua;
 }
 
-body{
-    background: linear-gradient(to right,blue,blueviolet,blue );
-}
-h1{
-    background: linear-gradient(to right,blueviolet,rgb(247, 0, 255),blueviolet);
-    width: 50%;
-    color: blue;
-    border-style: solid;
-    border-color: blue;
-    border-radius: 10px;
-    
-}
 
-button{
+
+
+button {
     background-color: rgb(0, 59, 253);
     width: 30%;
+    padding: 10px;
     border-radius: 10px;
     transition-property: all;
     transition-duration: 0.5s;
 }
 
-button:hover{
+button:hover {
     background-color: aqua;
 }
 
-div{
-    background: linear-gradient(to right,blue,aqua,blue);
+div {
+    background: linear-gradient(to right, blue, aqua, blue);
 }
 
-#developer{
-background-color: aqua;
-color: blue;
-border-style: solid;
-border-color: azure;
-border-radius: 10px;
-width: 10%;
-text-align: center;
+#developer {
+    background-color: aqua;
+    color: blue;
+    border-style: solid;
+    border-color: azure;
+    border-radius: 10px;
+    width: 10%;
+    text-align: center;
 }
